@@ -260,13 +260,17 @@ body.dark-mode {
   border-radius: 20px;
 }
 
+@media (max-width: 800px) {
+    .split-lists {
+    flex-wrap: wrap;
+   }
+}
 
-
- @media (max-width: 500px) {
+ /* @media (max-width: 500px) {
      .split-lists .split-list {
          width: 90%;
     }
-}
+} */
  .split-lists .split-list h3 {
      font-weight: 700;
      text-transform: uppercase;
