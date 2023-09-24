@@ -260,17 +260,29 @@ body.dark-mode {
   border-radius: 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .split-lists {
-    flex-wrap: wrap;
-   }
-}
-
- /* @media (max-width: 500px) {
-     .split-lists .split-list {
-         width: 90%;
+      gap: 8px !important;
     }
-} */
+    .split-list {
+      flex: 1;
+      padding: 15px !important;
+    }
+    .split-list h3 {
+      font-size: 13px !important;
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .split-lists {
+      flex-direction: column;
+      width: 100%;
+    }
+    .split-list {
+      width: auto;
+    }
+  }
+  
  .split-lists .split-list h3 {
      font-weight: 700;
      text-transform: uppercase;
