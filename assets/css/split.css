@@ -260,34 +260,13 @@ body.dark-mode {
   border-radius: 20px;
 }
 
-@media (max-width: 500px) {
-    .split-lists {
-      display: grid;
-      grid-template-columns:  30% 30% 30%;
-      width: 99%;
-      gap: unset;
+
+
+ @media (max-width: 500px) {
+     .split-lists .split-list {
+         width: 90%;
     }
-    .split-list {
-      width: unset;
-      padding: 15px !important;
-    }
-    .split-list h3 {
-      font-size: 12px !important;
-    }
-  }
-  
-  @media (max-width: 350px) {
-    .split-lists {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-    .split-list {
-      width: auto;
-      margin-bottom: 20px;
-    }
-  }
-  
+}
  .split-lists .split-list h3 {
      font-weight: 700;
      text-transform: uppercase;
