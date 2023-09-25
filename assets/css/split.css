@@ -260,6 +260,20 @@ body.dark-mode {
   border-radius: 20px;
 }
 
+/* CSS for mobile devices */
+@media screen and (max-width: 768px) {
+    /* CSS rules for smaller screens (e.g., mobile) */
+}
+
+/* CSS for tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules for medium-sized screens (e.g., tablets) */
+}
+
+/* CSS for larger desktop screens */
+@media screen and (min-width: 1025px) {
+    /* CSS rules for larger screens (e.g., desktop) */
+}
 
 
  @media (max-width: 500px) {
